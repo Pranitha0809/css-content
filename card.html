@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cards{
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            grid-template-rows: auto;
+            gap: 320px;
+        }
+        div{
+            width: 300px;
+            height: 400px;
+            background-color: gray;
+        }
+        img{
+            width: 300px;
+        }
+        img:hover{
+            animation: calc(2);
+            transform: scale(1,2);
+        }
+
+    </style>
+</head>
+<body>
+    <section>
+        <div class="cards">
+         <div><img src="./asset/img1.avif">
+        <p style="position: relative;font-size: 32px; color: black;">Pranitha</p></div>
+         <div><img src="./asset/img2.avif" ></div>
+         <div><img src="./asset/img3.avif" ></div>
+         <div>,<img src="./asset/img4.avif"></div>
+        </div>
+    </section>
+</body>
+</html>
